@@ -1,26 +1,138 @@
-.roboto-regular {
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+header {
+  background: #e7e9fc;
 }
 
-.roboto-medium {
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-style: normal;
+body {
+  font-family: "Roboto", "Helvetica Neue", "Arial", sans-serif;
+  color: #2e2f42;
 }
 
-.roboto-bold {
-  font-family: "Roboto", sans-serif;
-  font-weight: 700;
-  font-style: normal;
+a {
+  text-decoration: none;
 }
 
-// <uniquifier>: Use a unique and descriptive class name
+ul {
+  list-style-type: none;
+}
 
-.raleway-<uniquifier > {
-  font-family: "Raleway", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 700;
-  font-style: normal;
+.logo {
+  font-family: "Raleway", "Helvetica Neue", "Arial", "Liberation Sans",
+    "Noto Sans", sans-serif;
+  font-size: 18px;
+  color: #2e2f42;
+  line-height: 1.16667;
+}
+
+.logo-web {
+  color: #4d5ae5;
+}
+
+.nav a {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #2e2f42;
+}
+
+.nav-studio:hover,
+.nav-studio:focus {
+  color: #404bbf;
+}
+
+.nav-portfolio:hover {
+  color: #404bbf;
+}
+
+.nav-contacts:hover {
+  color: #404bbf;
+}
+
+.contact {
+  color: #434455;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.contact:hover {
+  color: #404bbf;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.section-1 {
+  background: #2e2f42;
+}
+.h1 {
+  font-size: 56px;
+  line-height: 1.07143;
+  color: #ffffff;
+}
+
+.button {
+  font-size: 16px;
+  line-height: 1.5;
+  background: #4d5ae5;
+  color: #fff;
+  cursor: pointer;
+}
+
+.button:hover {
+  background: #404bbf;
+}
+
+.features {
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+.features-description {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.section-3 {
+  background: #f4f4fd;
+}
+
+.team-title {
+  font-size: 36px;
+  line-height: 1.11111;
+}
+
+.team-name {
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+.team-position {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.portfolio-title {
+  font-size: 36px;
+  line-height: 1.11111;
+}
+
+.portfolio-service-h3 {
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+.portfolio-project-p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+footer {
+  background: #2e2f42;
+}
+
+.logo-studio-footer {
+  color: #f4f4fd;
+}
+
+.footer-call {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #f4f4fd;
 }
