@@ -56,30 +56,15 @@ ul {
   color: #404bbf;
 }
 
-.contact-mail {
+.contact-list {
   color: #434455;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
 
-.contact-mail:hover,
-.contact-mail:focus {
-  color: #404bbf;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-}
-
-.contact-tel {
-  color: #434455;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-}
-
-.contact-tel:hover,
-.contact-tel:focus {
+.contact-list:hover,
+.contact-list:focus {
   color: #404bbf;
   font-size: 16px;
   line-height: 1.5;
